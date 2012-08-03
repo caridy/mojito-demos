@@ -1,0 +1,16 @@
+Webinar: Custom and secure settings in Mojito
+
+More details on the blog post:
+
+ * http://caridy.name/2012/08/webinar-custom-and-secure-settings-in-mojito/
+
+Topics covered in this screencast:
+
+ * Mojito 0.3.30 (boiler plate for app and simple mojit)
+ * Application.json specs and mojit instances
+ * Simple routes
+ * Configuration per mojit instance
+ * Security risks when using configurations
+ * Defaults.json to define basic configurations
+ * The runtime server configuration to protect your settings and routes
+ * Edge case to have protected global settings per mojit instance
