@@ -1,0 +1,40 @@
+[
+    {
+        "settings": [ "master" ],
+        "specs": {
+            "foo": {
+                "type": "Foo",
+                "config": {
+                    "public1": "public1value",
+                    "global": "fooGlobalSetting"
+                }
+            },
+            "page": {
+                "type": "HTMLFrameMojit",
+                "config": {
+                    "deploy": true,
+                    "child": {
+                        "base": "foo"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "settings": [ "environment:development" ],
+        "staticHandling": {
+            "forceUpdate": true
+        }
+    },
+    {
+        "settings": [ "runtime:server" ],
+        "business": {
+            "logic": {
+                "secret2": "secret2value"
+            }
+        },
+        "fooGlobalSetting": {
+            "secret1": "secret1value"
+        }
+    }
+]

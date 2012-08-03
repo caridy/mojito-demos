@@ -1,0 +1,8 @@
+[{
+    "settings": [ "master" ],
+    "index": {
+        "verb": ["get"],
+        "path": "/",
+        "call": "page.index"
+    }
+}]

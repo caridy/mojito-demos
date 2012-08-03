@@ -1,0 +1,8 @@
+[
+    {
+        "settings": [ "master" ],
+        "config": {
+            "public1": "default public1 value"
+        }
+    }
+]
