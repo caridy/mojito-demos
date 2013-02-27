@@ -1,0 +1,8 @@
+[{
+    "settings": [ "master" ],
+    "index": {
+        "path": "/",
+        "verb": ["get"],
+        "call": "frame.index"
+    }
+}]
