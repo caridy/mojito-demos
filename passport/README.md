@@ -8,3 +8,4 @@ http://developer.yahoo.com/forum/Yahoo-Mojito/What-is-the-equivalent-of-express-
 
  * `npm install`
  * `./node_modules/mojito/bin/mojito start`
+ * browse to `http://localhost:8666/`
