@@ -1,0 +1,18 @@
+[
+    {
+        "settings": [ "master" ],
+        "appPort": "8666",
+        "specs": {
+            "foo": {
+                "type": "foo"
+            }
+        },
+        "middleware": [ "middleware/passport" ]
+    },
+    {
+        "settings": [ "environment:development" ],
+        "staticHandling": {
+            "forceUpdate": true
+        }
+    }
+]
